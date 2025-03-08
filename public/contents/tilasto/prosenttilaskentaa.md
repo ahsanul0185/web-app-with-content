@@ -168,7 +168,7 @@ Tässä harjoituksessa opit ilmaisemaan erilaisia suhteita prosenteilla. Laskemm
 voidaan kuvata määrällisiä suhteita ja muutoksia.
 
 
-| Ilmaise prosenteille &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | Prosenttiluku | 
+| Ilmaise prosenteille        | Prosenttiluku | 
 |-----------------------------|---------------|
 | a) 5 %                      | = 0,05        | 
 | b) 18 %                     | = 0,18        | 
@@ -200,10 +200,10 @@ Jos kokonaisuudesta on jäljellä 95 % 100:sta, jäljelle jää 95. Tämä osoit
 Prosenttiosuudet, kuten 1 % 100:sta tai 5 % 100:sta, ovat keskeisiä laskutoimituksia. Näin voit tarkasti laskea, mikä osa kokonaisuudesta kuhunkin prosenttiin vastaa.
 
 
-| Prosenttiosuus &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | Kokonaisuuden pohjalta | 
-|-----------------------------|---------------|
-| 1 %                         | = 1/100       | 
-| 5 %                         | = 5/100       | 
+| Prosenttiosuus              | Kokonaisuuden pohjalta | 
+|-----------------------------|------------------------|
+| 1 %                         | = 1/100                | 
+| 5 %                         | = 5/100                | 
 
 <br>
 
@@ -390,7 +390,7 @@ Lopputulos prosenttilaskelmissa, kuten edellä, auttaa ymmärtämään, miten al
 Populaatioiden suhteita voidaan tarkastella prosenttilaskennalla. Esimerkiksi, jos kokonaisuus on 100 % ja osa on 30 %, se tarkoittaa, että osa on 30/100 = 0,3 eli 30 % kokonaisuudesta.
 
 
-| Arvo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | Prosenttiluku | 
+| Arvo                        | Prosenttiluku | 
 |-----------------------------|---------------|
 | a) 100 % - 46 % = 54 %      | = 0,54        | 
 | b) 46 % - 12 % = 34 %       | = 0,54        | 

@@ -23,6 +23,10 @@ body {
   @apply text-white/85
 }
 
+.custom-markdown img{
+  @apply w-[90%] md:w-[70%] mx-auto
+}
+
 .custom-markdown h1 {
   @apply text-2xl font-bold mb-4;
 }
@@ -53,6 +57,12 @@ body {
 .custom-markdown tr {
   @apply border-b border-gray-800;
 }
+.custom-markdown th {
+  @apply pr-32;
+}
 
+.custom-table th {
+  @apply pr-12 md:pr-20 font-normal mx-auto
+}
 
 
