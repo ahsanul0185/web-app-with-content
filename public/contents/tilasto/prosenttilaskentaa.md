@@ -21,11 +21,13 @@ Pienet suhteelliset osuudet ilmaistaan usein **promilleina** eli tuhannesosina.
 
 <p className="my-2">Prosentti ja promille</p>
 <p>Prosentti on sadasosa.</p>
+
 $$
 1\% = \frac{1}{100} = 0,01
 $$
 
  <p>Promille on tuhannesosa.</p>
+ 
 $$
 1\% = \frac{1}{1000} = 0,001
 $$

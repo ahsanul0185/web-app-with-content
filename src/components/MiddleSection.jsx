@@ -51,7 +51,6 @@ import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import rehypeRaw from "rehype-raw";
-import "katex/dist/katex.min.css";
 import { useLocation, useParams } from "react-router-dom";
 
 const MiddleSection = ({ folder }) => {

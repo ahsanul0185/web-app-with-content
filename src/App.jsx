@@ -3,6 +3,7 @@ import { useAppContext } from "./contexts/AppContext";
 import Product from "./pages/Product";
 import { Route, Routes } from "react-router-dom";
 import MiddleSection from "./components/MiddleSection";
+import "katex/dist/katex.min.css";
 
 const App = () => {
   const {
