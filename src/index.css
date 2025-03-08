@@ -20,7 +20,7 @@ body {
 }
 
 .custom-markdown {
-  @apply text-white
+  @apply text-white/85
 }
 
 .custom-markdown h1 {
@@ -53,5 +53,6 @@ body {
 .custom-markdown tr {
   @apply border-b border-gray-800;
 }
+
 
 
