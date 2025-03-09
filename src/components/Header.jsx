@@ -8,7 +8,7 @@ const Header = () => {
   const {setShowTabletSidebar} = useAppContext();
 
   return (
-    <div className="sm:hidden px-8 py-5 flex justify-between items-center">
+    <div className="sm:hidden px-5 py-5 flex justify-between items-center">
       <button onClick={() => setShowTabletSidebar(true)}>
         <img draggable={false} className="size-[18px]" src={icon_menu} alt="menu icon" />
       </button>

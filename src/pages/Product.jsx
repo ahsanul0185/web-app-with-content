@@ -24,9 +24,9 @@ const Product = () => {
   
 
   return (
-    <div className={`relative flex flex-col sm:flex-row text-white overflow-clip z-0 ${isChatBoxOpen ? "h-screen sm:h-screen" : "h-fit sm:h-screen"}`}>
+    <div className={`relative flex flex-col sm:flex-row  text-white overflow-clip z-0 h-[100dvh]`}>
       {/* Header */}
-      <div className="hidden sm:flex lg:hidden absolute left-0 top-0 px-7 py-6 items-center justify-between gap-6 w-full bg-black">
+      <div className="hidden sm:flex lg:hidden absolute left-0 top-0 px-6 py-6 items-center justify-between gap-6 w-full bg-black">
         <button onClick={() => setShowTabletSidebar((prev) => !prev)}>
           <img draggable={false} src={icon_sidebar} alt="" />
         </button>
@@ -37,7 +37,7 @@ const Product = () => {
 
       {/* Left Sidebar */}
       <div
-        className={`absolute md:relative h-screen z-20 duration-300  ${
+        className={`absolute md:relative h-full z-20 duration-300  ${
           isChatBoxOpen ? "w-full xs:w-[370px] xl:w-[470px]" : "w-[300px] 2xl:w-[350px]"
         }  ${
           showTabletSidebar
@@ -63,7 +63,7 @@ const Product = () => {
         setIsChecked={setIsChatBoxOpen}
         setShowTabletSidebar={setShowTabletSidebar}
         setShowSidebar={setShowSidebar}
-        className="hidden sm:flex absolute bottom-0 left-1/2 md:left-[55%] -translate-x-1/2  flex-col items-center bg-black w-full py-6"
+        className="hidden sm:flex absolute bottom-0 left-1/2 md:left-[55%] -translate-x-1/2  flex-col items-center justify-center bg-blue -700  w-full h-[90px]"
       />
     </div>
   );

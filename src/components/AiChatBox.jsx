@@ -64,7 +64,7 @@ const AiChatBox = () => {
 
   return (
     <div
-      className={`absolute inset-0 z-0 w-full xs:w-[370px] xl:w-[470px] flex flex-col bg-darkGray h-full duration-300 ${
+      className={`absolute inset-0 z-0 w-full xs:w-[370px] xl:w-[470px] flex flex-col bg-darkGray max-h-full duration-300 ${
         isChatBoxOpen ? "-translate-x-0" : "-translate-x-full"
       }`}
     >

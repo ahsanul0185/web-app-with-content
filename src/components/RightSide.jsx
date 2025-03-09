@@ -9,7 +9,7 @@ const topics = [
   "Tehtävät lukuun",
 ];
 
-const RightSide = ({ currentContentData }) => {
+const RightSide = () => {
   return (
     <div className="relative hidden lg:block h-screen w-72 py-8 px-4 z-10">
       <button

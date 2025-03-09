@@ -14,9 +14,15 @@
     }
   }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: black;
+    height: 100vh;
+    height: -webkit-fill-available;
 }
 
 .custom-markdown {
@@ -28,11 +34,11 @@ body {
 }
 
 .custom-markdown h1 {
-  @apply text-2xl font-bold mb-4;
+  @apply text-xl md:text-2xl font-bold mb-4;
 }
 
 .custom-markdown h2 {
-  @apply text-xl font-bold mb-2;
+  @apply text-[18px] sm:text-xl font-bold mb-2;
 }
 
 .custom-markdown h3 {
@@ -64,5 +70,18 @@ body {
 .custom-table th {
   @apply pr-12 md:pr-20 font-normal mx-auto
 }
+
+.custom-markdown .el-flex {
+  @apply flex sm:gap-8 md:gap-32 flex-col md:flex-row
+}
+
+.custom-markdown .el-flex .math-block{
+  @apply w-[230px] block
+}
+
+.custom-markdown .el-flex.no-gap{
+  @apply gap-0
+}
+
 
 

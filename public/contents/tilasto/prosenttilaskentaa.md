@@ -22,11 +22,30 @@ Pienet suhteelliset osuudet ilmaistaan usein **promilleina** eli tuhannesosina.
 <p className="my-2">Prosentti ja promille</p>
 
 
-<span>Prosentti on sadasosa.</span> <span style="margin-left:100px">Promille on tuhannesosa.</span>
+<div className="el-flex">
+
+<div>
+
+Prosentti on sadasosa.
 <br>
-<br>
+
 <span>$$1\% = \frac{1}{100} = 0,001$$ </span>
-<span style="margin-left:130px">$$1\% = \frac{1}{1000} = 0,001$$ </span>
+
+</div>
+
+<div>
+
+Promille on tuhannesosa.
+<br>
+
+<span>$$1\% = \frac{1}{1000} = 0,001$$ </span>
+
+</div>
+
+</div>
+
+
+<br>
 
 Prosenttiluku voidaan aina ilmaista murtolukuna tai desimaalilukuna. Samoin murtoluku tai desimaaliluku voidaan aina ilmaista prosenttilukuna. Prosenttien määrä nähdään usein helpoimmin suhteen desimaalimuodosta.
 
@@ -93,11 +112,26 @@ Prosenttiosuus voidaan laskea kahdella tavalla.
 **Tapa 1:** Lasketaan ensin yksi prosentti sadassa luvusta 20. 
 Tämän jälkeen 12 % saadaan kertomalla satu luku kahdellatoista:
 
-<span>$$ \frac{20}{100} = 0.2 $$</span>
-<span style="margin-left:150px">Lasketaan 1 % eli yksi sadasosa.</span>
 
-<span>$$ 12×0,2=2,4 $$</span>
-<span style="margin-left:100px">Lasketaan 12 %.</span>
+<div className="el-flex no-gap">
+
+<span className="math-block">$$ \large \frac{20}{100} = 0.2 $$</span>
+
+Lasketaan 1 % eli yksi sadasosa.
+
+</div>
+
+<div className="el-flex no-gap">
+
+<span className="math-block">$$ \large 12×0,2=2,4 $$</span>
+
+Lasketaan 12 %.
+
+</div>
+
+
+
+
 
 <br>
 
@@ -106,11 +140,22 @@ Tapa 2.
 Ilmaistaan prosenttiluku desimaalilukuna. Saadulla prosenttikertoimella kerrotaan perusarvo 20.
 
 
-<span>$$ 12\% =0,12 $$</span>
-<span style="margin-left:140px">Ilmaistaan prosenttiluku desimaalilukuna. Prosenttikerroin on 0,12.</span>
+<div className="el-flex no-gap">
 
-<span>$$ 0,12×20=2,4 $$</span>
-<span style="margin-left:100px">Kerrotaan perusarvo, eli luku 20, prosenttikertoimella..</span>
+<span className="math-block">$$ 12\% =0,12 $$</span>
+
+Ilmaistaan prosenttiluku desimaalilukuna. Prosenttikerroin on 0,12.
+
+</div>
+
+<div className="el-flex no-gap">
+
+<span className="math-block">$$ 0,12×20=2,4 $$</span>
+
+Kerrotaan perusarvo, eli luku 20, prosenttikertoimella..
+
+</div>
+
 
 <br>
 
@@ -123,14 +168,26 @@ Verrataan lukua b perusarvoon a eli suoritetaan jakolasku b:ab : ab:a. Ilmaistaa
 ### Esimerkki:
 Lasketaan, kuinka monta prosenttia luku 24 on luvusta 60.
 
-<span>$$ \frac{24}{60} = 2,5 = 250\% $$</span>
-<span style="margin-left:100px">KIlmaistaan osamäärä 24:60prosentteina laskemalla ensin desimaalimuoto.</span>
+<div className="el-flex no-gap">
+
+<span className="math-block">$$ \large \frac{24}{60} = 2,5 = 250\% $$</span>
+
+KIlmaistaan osamäärä 24:60prosentteina laskemalla ensin desimaalimuoto.
+
+</div>
+
 
 ### Esimerkki:
 Lasketaan, kuinka monta prosenttia luku 60 on luvusta 24.
 
-<span>$$ \frac{60}{24} = 2,5 = 250\% $$</span>
-<span style="margin-left:100px">Ilmaistaan osamäärä 60:2460 : 2460:24 prosentteina.</span>
+<div className="el-flex no-gap">
+
+<span className="math-block">$$ \large \frac{60}{24} = 2,5 = 250\% $$</span>
+
+Ilmaistaan osamäärä 60:2460 : 2460:24 prosentteina.
+
+</div>
+
 
 
 Huomaa ero alla käsiteltäviin vertailuprosentteihin.
@@ -369,7 +426,8 @@ Pertti arvostaa vertailua myös, kun tarkastelemme 32 % ja 18 % suhteessa 100:aa
 Tässä osiossa tarkastellaan erilaisia muotoja ja niiden vertailua matematiikan kontekstissa. Käymme läpi, miten eri muodot, kuten arvot ja suhteet, esitetään ja analysoidaan.
 
 ### Kodinkoneiden hinnat
-Kodinkoneiden hintoja voidaan verrata prosenttilaskennalla. Esimerkiksi, jos alkuperäinen hinta on 199 euroa ja alennus on 70 %, lasku menee näin:  70 % = 70/100 = 0,7. Näin ollen 
+Kodinkoneiden hintoja voidaan verrata prosenttilaskennalla. Esimerkiksi, jos alkuperäinen hinta on 199 euroa ja alennus on 70 %, lasku menee näin:
+<br> 70 % = 70/100 = 0,7. Näin ollen 
 <br> 70 % 199:stä on 0,7 × 199 = 139,3 euroa.
 
 ### Alennusprosentti ja sen laskeminen
