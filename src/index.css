@@ -42,11 +42,11 @@ body {
 }
 
 .custom-markdown h3 {
-  @apply text-base font-bold mb-1;
+  @apply font-bold mb-1;
 }
 
 .custom-markdown p {
-  @apply leading-relaxed mb-4;
+  @apply text-sm md:text-base leading-relaxed mb-4;
 }
 
 .custom-markdown a {
@@ -64,7 +64,7 @@ body {
   @apply border-b border-gray-800;
 }
 .custom-markdown th {
-  @apply pr-32;
+  @apply pr-20 md:pr-32 text-sm whitespace-nowrap md:text-base;
 }
 
 .custom-table th {
