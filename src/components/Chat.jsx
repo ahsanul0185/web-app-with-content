@@ -48,7 +48,7 @@ const Chat = () => {
                   {message.content !== "typing" && (message.role === "assistant" ? (
                     <Typewriter
                       text={message.content}
-                      delay={10}
+                      delay={0.01}
                       infinite={false}
                       endIndicator={msgEnd}
                     />

@@ -35,7 +35,7 @@ export const sendMessageToOpenAIFetch = async (userInput, chat) => {
 
         if (!response.ok) {
             console.log(response)
-            return "Something went wrong"
+            return "Something went wrong!"
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 

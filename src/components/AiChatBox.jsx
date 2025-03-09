@@ -103,7 +103,7 @@ const AiChatBox = () => {
             value={userInput}
             rows={1}
             autoFocus
-            className="text-sm sm:text-base bg-[#1e1e1e] px-2 pt-2 w-full outline-none  custom-scrollbar resize-none"
+            className="text-base bg-[#1e1e1e] px-2 pt-2 w-full outline-none  custom-scrollbar resize-none"
             placeholder="Ask Question"
           ></textarea>
           <div className="flex justify-end">

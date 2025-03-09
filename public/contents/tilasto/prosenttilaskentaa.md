@@ -270,7 +270,7 @@ Prosenttiosuudet, kuten 1 % 100:sta tai 5 % 100:sta, ovat keskeisiä laskutoimit
 Tässä osiossa opit, miten voit laskea prosentin osuuden perusluvusta. Käymme läpi, miten prosentin arvo muunnetaan ja sovelletaan erilaisiin laskentoihin.
 
  ### Kuninkaalla on 20 %:n osuus vallasta
-Esimerkiksi, jos kuningas omistaa 20 % vallasta kokonaisuudesta, joka on 100, lasku menee näin: 20 % = 20/100 = 0,20. Näin ollen 20 % 100:sta on 20.
+Esimerkiksi, jos kuningas omistaa 20 % vallasta kokonaisuudesta, joka on 100, lasku menee näin:20 % = 20/100 = 0,20. Näin ollen 20 % 100:sta on 20.
 
 ### Pohjimmiltaan prosentin merkitys
 Pohjimmiltaan prosentin merkitys on suhteellinen arvo, joka ilmaisee osan kokonaisuudesta. Tässä tapauksessa 20 % tarkoittaa, että kuninkaan osa vallasta on viidesosa kokonaisuudesta.
@@ -383,7 +383,7 @@ kokonaisuudesta 100, tulos on 64, ja 36 % on 36.
 Luku, kuten 100, kuvaa monia prosentteja, esimerkiksi 64 % ja 36 %. Tämä auttaa ymmärtämään, miten kokonaisuus jakautuu eri osuuksiin.
 
 ### Kuinka monen prosentin osuus on 50
-Kysymys "Kuinka monen prosentin osuus on 50, kun kokonaisuus on 100?" ratkaistaan näin: 50 = 50/100 = 0,50, eli 50 on 50 % kokonaisuudesta.
+Kysymys "Kuinka monen prosentin osuus on 50, kun kokonaisuus on 100?" ratkaistaan näin:50 = 50/100 = 0,50, eli 50 on 50 % kokonaisuudesta.
 
 ### Verkkokaupan monia osuuksia
 Verkkokaupassa monia osuuksia, kuten 50 % ja 32 %, voidaan verrata peruslukuun 100:aan. Näin ollen 50 on 50 % ja 32 on 32 % kokonaisuudesta.

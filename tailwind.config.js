@@ -18,6 +18,15 @@ export default {
         'xl': '1280px',   
         '2xl': '1536px', 
         '3xl': '1920px'   
+      },
+      animation: {
+        "pulse-dot": "pulse-dot 1.2s infinite ease-in-out",
+      },
+      keyframes: {
+        "pulse-dot": {
+          "0%, 80%, 100%": { transform: "scale(0.8)", opacity: 0.9 },
+          "40%, 50%": { transform: "scale(1.1)", opacity: 1 },
+        },
       }
     },
   },
