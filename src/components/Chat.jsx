@@ -8,9 +8,9 @@ const Chat = () => {
   const { chatHistory } = useAppContext();
   const msgEnd = useRef();
 
-  // useEffect(() => {
-  //   msgEnd.current.scrollIntoView({ behavior: "smooth" });
-  // }, [chatHistory]);
+  useEffect(() => {
+    msgEnd.current.scrollIntoView({ behavior: "smooth" });
+  }, [chatHistory]);
 
   return (
     <div className={`overflow-y-auto custom-scrollbar  ${chatHistory.length === 2 ? "mb-10" : "mb-0"}`}>
@@ -57,12 +57,12 @@ const Chat = () => {
                   ))}
 
                 </div>
+                <div ref={msgEnd} />
               </div>
             )}
           </div>
         ))}
 
-        <div ref={msgEnd} />
       </div>
     </div>
   );
