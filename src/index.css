@@ -64,11 +64,11 @@ body {
   @apply border-b border-gray-800;
 }
 .custom-markdown th {
-  @apply pr-20 md:pr-32 text-sm whitespace-nowrap md:text-base;
+  @apply pr-[4vw] xl:pr-[8vw] text-sm whitespace-nowrap md:text-base;
 }
 
 .custom-table th {
-  @apply pr-12 md:pr-20 font-normal mx-auto
+  @apply pr-[2vw] xl:pr-[4vw] font-normal mx-auto
 }
 
 .custom-markdown .el-flex {

@@ -8,7 +8,7 @@ const SettingsIcon = () => {
     const [showSettingsModal, setShowSettingsModal] = useState(false);
 
   return (
-    <div className='relative flex justify-end px-2'>
+    <div className='relative flex h-sm:hidden justify-end px-2'>
     <button onClick={() => setShowSettingsModal(prev => !prev)}>
       <img draggable={false} src={icon_settings} alt="icon settings" />
     </button>

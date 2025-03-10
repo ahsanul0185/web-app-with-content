@@ -7,6 +7,7 @@ import AiChatBox from "../components/AiChatBox";
 import ToggleButton from "../utils/ToggleButton";
 import icon_sidebar from "../assets/sidebar.svg";
 import icon_menu from "../assets/icon-menu.svg";
+import icon_logout from "../assets/icon-logout-white.svg";
 import SettingsIcon from "../utils/SettingsIcon";
 import Header from "../components/Header";
 import { Outlet } from "react-router-dom";
@@ -28,7 +29,7 @@ const Product = () => {
     <div className={`relative flex flex-col sm:flex-row  text-white overflow-clip z-0 h-[100dvh]`}>
       {/* Header */}
       <div className="hidden sm:flex lg:hidden absolute left-0 top-0 px-6 py-6 h-sm:py-3.5 items-center justify-between gap-6 w-full bg-black">
-        <button className="h-sm:hidden" onClick={() => setShowTabletSidebar((prev) => !prev)}>
+        <button className="block h-sm:hidden" onClick={() => setShowTabletSidebar((prev) => !prev)}>
           <img  draggable={false} src={icon_sidebar} alt="" />
         </button>
         <button className="hidden h-sm:block" onClick={() => setShowTabletSidebar((prev) => !prev)}>
@@ -36,6 +37,10 @@ const Product = () => {
         </button>
 
         <SettingsIcon />
+        <button onClick={() => window.location.href = "https://dashboard-edai.netlify.app/"} className="hidden h-sm:flex items-center text-sm gap-3 duration-200 hover:bg-light/10">
+                <img draggable={false} src={icon_logout} alt="" className="size-3.5" />
+                Kojelauta
+              </button>
       </div>
       <Header />
 
