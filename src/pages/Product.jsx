@@ -26,7 +26,7 @@ const Product = () => {
   return (
     <div className={`relative flex flex-col sm:flex-row  text-white overflow-clip z-0 h-[100dvh]`}>
       {/* Header */}
-      <div className="hidden sm:flex lg:hidden absolute left-0 top-0 px-6 py-6 items-center justify-between gap-6 w-full bg-black">
+      <div className="hidden sm:flex lg:hidden absolute left-0 top-0 px-6 py-6 h-sm:py-3.5 items-center justify-between gap-6 w-full bg-black">
         <button onClick={() => setShowTabletSidebar((prev) => !prev)}>
           <img draggable={false} src={icon_sidebar} alt="" />
         </button>
@@ -63,7 +63,7 @@ const Product = () => {
         setIsChecked={setIsChatBoxOpen}
         setShowTabletSidebar={setShowTabletSidebar}
         setShowSidebar={setShowSidebar}
-        className="hidden sm:flex absolute bottom-0 left-1/2 md:left-[55%] -translate-x-1/2  flex-col items-center justify-center bg-blue -700  w-full h-[90px]"
+        className="hidden sm:flex absolute bottom-0 left-1/2 md:left-[55%] -translate-x-1/2  flex-col items-center justify-center  w-full h-[90px] h-sm:h-[55px]"
       />
     </div>
   );

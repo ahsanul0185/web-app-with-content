@@ -23,7 +23,7 @@ const MiddleSection = ({ folder }) => {
 
   return (
     <div className="flex-1">
-      <div className="px-5 sm:px-20 md:px-12 h-[calc(100dvh-90px)] w-full overflow-y-scroll overflow-x-hidden custom-scrollbar pb-4 lg:pt-10">
+      <div className="px-5 sm:px-16 md:px-12 h-[calc(100dvh-90px)] h-sm:h-[calc(100dvh-55px)] w-full overflow-y-scroll overflow-x-hidden custom-scrollbar pb-4 lg:pt-10">
         <div className="custom-markdown text-sm sm:text-base leading-[25px] sm:leading-loose sm:pt-16 lg:pt-0 sm:pb-[120px] lg:pb-[150px]">
           <ReactMarkdown
             remarkPlugins={[remarkMath, remarkGfm]}

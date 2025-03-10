@@ -85,3 +85,19 @@ body {
 
 
 
+.fade-in-char {
+  opacity: 0;
+  animation: fadeInTyping 0.3s ease-in forwards;
+}
+
+@keyframes fadeInTyping {
+  from {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

@@ -21,7 +21,7 @@ const SidebarContent = () => {
 
   return (
     <div
-      className={`absolute  w-[300px] 2xl:w-[350px] h-full z-10 duration-300 ${
+      className={`absolute  w-[300px] 2xl:w-[350px] h-full h-sm:h-[100dvh] h-sm:overflow-y-auto z-10 duration-300 ${
         isChatBoxOpen && showSidebar
           ? "translate-x-0 bg-black"
           : !isChatBoxOpen

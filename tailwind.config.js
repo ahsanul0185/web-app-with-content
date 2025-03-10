@@ -29,6 +29,9 @@ export default {
         },
       }
     },
+    screens : {
+      'h-sm': { raw: '(max-height: 540px)' },
+    }
   },
   plugins: [],
 }

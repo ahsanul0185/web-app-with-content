@@ -6,7 +6,7 @@ const ToggleButton = ({ isChecked, setIsChecked, setShowTabletSidebar, setShowSi
 
   return (
     <div className={twMerge("flex flex-col items-center", className)}>
-      <label className="flex cursor-pointer select-none items-center scale-75">
+      <label className="flex cursor-pointer select-none items-center scale-75 h-sm:scale-[0.6]">
         <div className="relative">
           <input
             type="checkbox"
@@ -25,7 +25,7 @@ const ToggleButton = ({ isChecked, setIsChecked, setShowTabletSidebar, setShowSi
         </div>
       </label>
 
-      <p className="text-center text-sm text-light mt-2">
+      <p className="text-center text-sm text-light mt-2 h-sm:mt-0.5 h-sm:mb-2 h-sm:text-xs">
           {text}
         </p>
     </div>

@@ -33,7 +33,7 @@ const Chat = () => {
             {message.role !== "developer" && (
               <div
                 className={`${
-                  message.role === "assistant" ? "max-w-[85%]" : "flex justify-end"
+                  message.role === "assistant" ? "max-w-[85%]" : "flex justify-end break-words"
                 }`}
               >
                 <div
