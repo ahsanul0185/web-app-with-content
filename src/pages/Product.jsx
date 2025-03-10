@@ -6,6 +6,7 @@ import RightSide from "../components/RightSide";
 import AiChatBox from "../components/AiChatBox";
 import ToggleButton from "../utils/ToggleButton";
 import icon_sidebar from "../assets/sidebar.svg";
+import icon_menu from "../assets/icon-menu.svg";
 import SettingsIcon from "../utils/SettingsIcon";
 import Header from "../components/Header";
 import { Outlet } from "react-router-dom";
@@ -27,8 +28,11 @@ const Product = () => {
     <div className={`relative flex flex-col sm:flex-row  text-white overflow-clip z-0 h-[100dvh]`}>
       {/* Header */}
       <div className="hidden sm:flex lg:hidden absolute left-0 top-0 px-6 py-6 h-sm:py-3.5 items-center justify-between gap-6 w-full bg-black">
-        <button onClick={() => setShowTabletSidebar((prev) => !prev)}>
-          <img draggable={false} src={icon_sidebar} alt="" />
+        <button className="h-sm:hidden" onClick={() => setShowTabletSidebar((prev) => !prev)}>
+          <img  draggable={false} src={icon_sidebar} alt="" />
+        </button>
+        <button className="hidden h-sm:block" onClick={() => setShowTabletSidebar((prev) => !prev)}>
+          <img draggable={false} src={icon_menu} alt="" />
         </button>
 
         <SettingsIcon />
