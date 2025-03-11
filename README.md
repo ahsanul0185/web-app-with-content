@@ -1,8 +1,40 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This is a sample markdown file to check formatting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### List Example
+- Item 1
+- Item 2
+- Item 3
+
+
+### Code Block Example
+
+### Table Example
+| Name  | Age |
+|-------|-----|
+| John  | 25  |
+| Alice | 30  |
+
+### Quote Example
+> This is a blockquote.
+
+
+## Math
+
+Inline equation: $E = mc^2$
+
+Block equation:
+$$
+\\int_{a}^{b} x^2 \\,dx
+$$
+
+$$
+x^2 - y^2
+$$
+
+### Link Example
+[OpenAI](https://openai.com)
+
+## Image Example
+![Alt Text](https://via.placeholder.com/150)
